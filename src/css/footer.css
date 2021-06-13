@@ -1,0 +1,23 @@
+footer {
+  height: 55px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+footer .ui.grid {
+  margin-top: 13px;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+
+footer .ui.grid .four.wide.column {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}

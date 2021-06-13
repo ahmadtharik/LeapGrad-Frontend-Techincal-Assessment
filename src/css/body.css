@@ -1,0 +1,124 @@
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body {
+  background: #233142;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+.callType {
+  position: absolute;
+  margin-top: 6px;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.aside {
+  padding-left: 13px;
+  margin-top: 3px;
+  font-size: 10px;
+  color: #b1b1b1;
+}
+
+.aside span {
+  font-size: 17px;
+  margin-right: 10px;
+  color: #cccccc;
+}
+
+.dateHeader {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.box span {
+  float: right;
+  vertical-align: middle;
+  margin-top: 16px;
+  font-size: 10px;
+  border-top: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  border-left: 1px solid #b1b1b1;
+  padding: 2px 2px 0px 2px;
+  color: #b1b1b1;
+}
+
+.callFrom {
+  font-size: 10px;
+  padding-top: 5px;
+  text-overflow: clip;
+  color: #b1b1b1;
+}
+
+.accor {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.accor .head {
+  border-radius: inherit;
+  background: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  max-height: 65px;
+}
+.accor .data {
+  background: #fafafa;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+}
+.accor.active > .data {
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px 0px 15px 15px;
+  padding: 10px 20px;
+  max-height: 600px;
+}
+
+.data {
+  font-size: 10px;
+}
+.callDuration {
+  margin-top: 3px;
+}
+
+.from {
+  float: right;
+}
+#unknown {
+  margin-bottom: 0px;
+}
+
+.dashed {
+  font-size: 12px;
+  border-bottom: 1px dotted #bbbbbb;
+  text-align: center;
+  height: 10px;
+  margin-bottom: 15px;
+  width: 95%;
+  margin-left: 10px;
+  color: #bbbbbb;
+}
+
+.dashed span {
+  padding: 0px 0px 10px 10px;
+  background: #fff;
+  padding: 0 5px;
+}
